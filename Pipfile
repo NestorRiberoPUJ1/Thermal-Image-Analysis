@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pillow = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+pygame = "*"
+pygame-gui = "*"
+scipy = "*"
+xlsxwriter = "*"
+thermal-base = {ref = "main", git = "git+https://github.com/detecttechnologies/thermal_base.git"}
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
